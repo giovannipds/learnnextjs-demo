@@ -21,7 +21,7 @@ export default () => (
         </li>
       ))}
     </ul>
-    <style jsx>{`
+    <style jsx>
       h1, a {
         font-family: "Arial";
       }
@@ -43,6 +43,6 @@ export default () => (
       a:hover {
         opacity: 0.6;
       }
-    `}</style>
+    </style>
   </Layout>
 )
