@@ -11,7 +11,7 @@ app.prepare()
 
   server.get('/p/:id', (req, res) => {
     const actualPage = '/post'
-    const queryParams = { id: req.params.id }
+    const queryParams = { id: req.params.id } // I won't change here to "title" since it may be already connected to pages/post.js
     app.render(req, res, actualPage, queryParams)
   })
 
